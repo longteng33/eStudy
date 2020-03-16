@@ -125,7 +125,7 @@ import createPersistedState from "vuex-persistedstate";
 2）paths: ["user"],//path为可以部分保留状态的所有路径的数组。 如果没有给出路径，则完整状态将保留。 必须使用点符号指定路径。  
 //如果使用模块，请包含模块名称，下面的user为模块名称  
 // 会自动把user中的值存到localStorage中去  
-*刷新页面，或者下次打开页面的时候，就去localStorage中去取*
+**刷新页面，或者下次打开页面的时候，就去localStorage中去取**
 3）subscriber,插件的钩子函数,初始化的时候执行  
 在初始化的时候，调用user中的checkedLogin函数，检查有没有过期  
 参数store是当前vuex的实例  
